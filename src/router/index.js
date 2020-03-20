@@ -14,10 +14,10 @@ const Roles = () => import(/* webpackChunkName: "user_roles_rights" */'@/compone
 const Rights = () => import(/* webpackChunkName: "user_roles_rights" */'@/components/rights/Rights')
 const GoodsList = () => import(/* webpackChunkName: "list_add" */'@/components/goods/List')
 const GoodsAdd = () => import(/* webpackChunkName: "list_add" */'@/components/goods/Add')
-const GoodsParams = () => import(/* webpackChunkName: "params_user" */'@/components/goods/Params')
-const GoodsCate = () => import(/* webpackChunkName: "params_user" */'@/components/goods/Cate')
-const Orders = () => import(/* webpackChunkName: "orders_" */'@/components/orders/Orders')
-const Reports = () => import(/* webpackChunkName: "params_user" */'@/components/reports/Reports')
+const GoodsParams = () => import(/* webpackChunkName: "params_cate" */'@/components/goods/Params')
+const GoodsCate = () => import(/* webpackChunkName: "params_cate" */'@/components/goods/Cate')
+const Orders = () => import(/* webpackChunkName: "orders_reports" */'@/components/orders/Orders')
+const Reports = () => import(/* webpackChunkName: "orders_reports" */'@/components/reports/Reports')
 
 Vue.use(VueRouter)
 
